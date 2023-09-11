@@ -185,11 +185,15 @@ const Partner = new Swiper('.partner__slider', {
             spaceBetween: 25,
         },
     },
-    autoplay: {
-        delay: 1,
-        disableOnInteraction: true,
-    },
-    speed: 2000,
+    // autoplay: {
+    //     delay: 1,
+    //     disableOnInteraction: true,
+    // },
+    speed: 500,
+    navigation:{
+        nextEl:".button-next",
+        prevEl:".button-prev",
+    }
 });
 
 

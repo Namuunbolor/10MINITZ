@@ -1971,6 +1971,10 @@ ol {
   .container {
     max-width: 1170px;
   }
+  .container1 {
+    max-width: 850px;
+    margin: auto;
+  }
 }
 
 .gradient-text--brand1 {
@@ -2096,6 +2100,22 @@ ol {
   .padding-bottom-style2 {
     padding-block-end: 80px;
   }
+}
+
+.button-prev{
+  position: absolute; 
+  left: 0; 
+  top: 50%; 
+  transform: translateY(-50%);
+  z-index: 200;
+}
+
+.button-next{
+  position: absolute; 
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-50%);
+  z-index: 200;
 }
 
 h1,
